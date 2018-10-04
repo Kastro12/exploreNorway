@@ -1,0 +1,310 @@
+/* NAVBAR AND CAROUSEL  */
+
+
+.welcome_text{
+    top: 150px;
+    z-index: 9999;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30pt;
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    .welcome_text {
+        font-size: 10pt;
+    }}
+
+.my-c{
+    top: 20px;
+}
+.my-n{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: transparent !important;
+
+}
+
+@media screen and (max-width: 500px) {
+    .my-n {
+        z-index: 99999;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-color: white !important;
+    }}
+
+.my-n .navbar-nav a{
+    color: rebeccapurple !important;
+    font-size: 12pt;
+   /* text-shadow: 1px 1px 1px black; */
+   /* font-weight: bold;*/
+
+}
+.my-n .navbar-nav a:hover{
+    color: rebeccapurple !important;
+    text-shadow: 1px 1px 1px  black;
+}
+
+.navbar-brand {
+    color: rebeccapurple !important;
+    font-size: 24pt;
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav-item {
+    margin-right:30px;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.1, 1.1);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.carousel-item {
+     height: 540px;
+     width: 100%;
+ }
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-item {
+        height: 200px;
+    }}
+
+
+.carousel-inner .carousel-item > img {
+    -webkit-animation: zoom 50s;
+    animation: zoom 50s;
+}
+
+.cura{
+    width: auto;
+    height: 130px;
+
+}
+.cura img{
+    width: 100%;
+    height: 100%;
+}
+/* END NAVBAR AND CAROUSEL */
+
+/*ROUTE AND ABOUT US*/
+
+.subtitle{
+    font-size: 12pt;
+    color: black;
+    padding-bottom: 5px;
+}
+.divUnderline{
+    background-color: rebeccapurple;
+    width: 45px;
+    height: 2px;
+}
+
+.fab{
+    font-size: 25pt;
+    color: darkgray;
+    color: gray;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+.fab:hover{
+    font-weight: 600;
+    color: rebeccapurple;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+}
+
+.routeText{
+    width: 100%;
+    padding-left: 40px;
+}
+.route{
+    width: 100%;
+    height: 400px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .route {
+        height: 200px;
+    }}
+
+.route:hover {
+    transition-delay: 250ms;
+    -webkit-transition: all 0.4s ease-out;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+}
+
+.readMore a{
+    padding-right: 4px;
+    padding-left: 4px;
+    color: gray;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18pt;
+}
+
+.readMore a:hover{
+    font-weight: 600;
+    color: rebeccapurple;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+}
+
+.galleryLink {
+    color: rebeccapurple;
+    font-size: 12pt;
+}
+
+
+.galleryLink:hover {
+    color: rebeccapurple;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f2f2f2;
+}
+
+.impressions{
+    width: auto;
+    height: 500px;
+    padding-right: 20px;
+    overflow-y: auto;
+}
+
+/*END ROUTE AND ABOUT US*/
+
+
+/*  BOOK IT IMAGES PARALLAX */
+
+
+.parallax-window {
+    background-image: url("/vl/public/storage/images/ap.jpg");
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#reserveText {
+    padding-top: 120px;
+    padding-left: 20px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.btnReserve {
+    background-color: transparent;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    font-weight: bold;
+    font-size: 16pt;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* END BOOK IT  PARALLAX */
+
+
+        /*FOOTER*/
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #f2f2f2;
+    position: absolute;
+    color: #4d4d4d;
+    font-size: 11pt;
+
+}
+
+
+/* END FOOTER */
+
+/* CONTACT */
+
+#contact_form{
+   margin-right: 30px;
+   margin-left: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+.send{
+    background-color: rebeccapurple;
+    color: white;
+    border-color: rebeccapurple;
+}
+
+
+
+.send a:hover{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.send:hover{
+    font-weight: bold;
+    color: black;
+}
+
+
+/* END CONTACT */
+
+/* GALLERY */
+.show_img {
+    width: 100%;
+    height: 200px;
+}
+.show_img img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+/* END GALLERY */
+
+/* CREATE ROUTE */
+
+.activities{
+    width: 100%;
+    height: 190px;
+    border-radius: 3px;
+}
+
+/* END CREATE ROUTE */
+
+/* PROFILE */
+
+.profile {
+ color: rebeccapurple;
+ background-color: #e6e6e6;
+ font-size: 11pt;
+ width: 100%;
+ height: auto;
+ padding: 10px;
+}
+
+
+/* END PROFILE */
